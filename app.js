@@ -19,7 +19,7 @@ let getInfo = async(direccion) => {
     
         return `El clima en ${coors.direccion} es de ${ temp }`
     } catch (e) {
-        return `No de pudo determinar el clima en ${direccion} Veulba a intentarlo`
+        return `No de pudo determinar el clima en ${direccion} Vuelva a intentarlo`
     }
 }
 
